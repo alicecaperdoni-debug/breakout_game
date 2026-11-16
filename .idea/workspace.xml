@@ -1,30 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c287269b-6748-4470-8fa1-cf742515e38e" name="Changes" comment="" />
+    <list default="true" id="c287269b-6748-4470-8fa1-cf742515e38e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/breakout_game.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/brick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1,
-  "fromUser": false
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "alicecaperdoni-debug"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/alicecaperdoni-debug/breakout_game.git",
+    "accountId": "eed56c05-4084-477a-96ee-4b60e2d10266"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.000000000000008" />
+      <entry key="MS500" value="1.0021020738290476" />
+      <entry key="S2" value="1.3692956639264022" />
+      <entry key="S5" value="2.4370047173059657" />
+      <entry key="S10" value="4.112582178941679" />
+      <entry key="S30" value="8.443592205939389" />
+      <entry key="S60" value="11.971350688590084" />
+      <entry key="M2" value="16.243654720829127" />
+      <entry key="M5" value="24.210464081027727" />
+      <entry key="M10" value="36.653311215322105" />
+      <entry key="M15" value="49.906461671376725" />
+      <entry key="M30" value="84.27112430811883" />
+      <entry key="H1" value="123.31511514717847" />
+      <entry key="H2" value="154.42652999962442" />
+      <entry key="H4" value="174.34904950917968" />
+      <entry key="D1" value="193.7679150692892" />
+      <entry key="W1" value="197.38785725736847" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="4.604022030948401E-71" />
+      <entry key="S2" value="2.60485976893753E-18" />
+      <entry key="S5" value="9.2536642784861E-8" />
+      <entry key="S10" value="3.041983609174478E-4" />
+      <entry key="S30" value="0.06725519109057222" />
+      <entry key="S60" value="0.26036429096169633" />
+      <entry key="M2" value="0.5413754043724193" />
+      <entry key="M5" value="1.0327070900118247" />
+      <entry key="M10" value="1.562005245766171" />
+      <entry key="M15" value="2.019995139389405" />
+      <entry key="M30" value="3.0719046761374247" />
+      <entry key="H1" value="4.14612398792074" />
+      <entry key="H2" value="4.944063779382394" />
+      <entry key="H4" value="5.43467435051154" />
+      <entry key="D1" value="5.900088257704545" />
+      <entry key="W1" value="5.985580455332349" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.712025097798536" />
+      <entry key="MS500" value="0.9353289103276325" />
+      <entry key="S2" value="1.2933047070953105" />
+      <entry key="S5" value="2.3217587825260315" />
+      <entry key="S10" value="3.972389712097175" />
+      <entry key="S30" value="8.388994482770062" />
+      <entry key="S60" value="12.14177736400484" />
+      <entry key="M2" value="16.724854101755465" />
+      <entry key="M5" value="25.206159903458566" />
+      <entry key="M10" value="38.186411590919036" />
+      <entry key="M15" value="51.89959188790976" />
+      <entry key="M30" value="87.3184415782187" />
+      <entry key="H1" value="127.4418317710783" />
+      <entry key="H2" value="159.35787148063827" />
+      <entry key="H4" value="179.77636497107991" />
+      <entry key="D1" value="199.66661156018938" />
+      <entry key="W1" value="203.37323444248594" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3M5qseIVLu3j5b2UUWaSSukvQ7O" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.brick.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/HP/Desktop/100 days of Python/Progetti/breakout_game",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
