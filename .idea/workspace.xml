@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c287269b-6748-4470-8fa1-cf742515e38e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/breakout_game.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/brick.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="c287269b-6748-4470-8fa1-cf742515e38e" name="Changes" comment="creati brick e paddle objects">
+      <change afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paddle.py" beforeDir="false" afterPath="$PROJECT_DIR$/paddle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,75 +25,75 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "alicecaperdoni-debug"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alicecaperdoni-debug&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/alicecaperdoni-debug/breakout_game.git",
-    "accountId": "eed56c05-4084-477a-96ee-4b60e2d10266"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alicecaperdoni-debug/breakout_game.git&quot;,
+    &quot;accountId&quot;: &quot;eed56c05-4084-477a-96ee-4b60e2d10266&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000000000008" />
-      <entry key="MS500" value="1.0021020738290476" />
-      <entry key="S2" value="1.3692956639264022" />
-      <entry key="S5" value="2.4370047173059657" />
-      <entry key="S10" value="4.112582178941679" />
-      <entry key="S30" value="8.443592205939389" />
-      <entry key="S60" value="11.971350688590084" />
-      <entry key="M2" value="16.243654720829127" />
-      <entry key="M5" value="24.210464081027727" />
-      <entry key="M10" value="36.653311215322105" />
-      <entry key="M15" value="49.906461671376725" />
-      <entry key="M30" value="84.27112430811883" />
-      <entry key="H1" value="123.31511514717847" />
-      <entry key="H2" value="154.42652999962442" />
-      <entry key="H4" value="174.34904950917968" />
-      <entry key="D1" value="193.7679150692892" />
-      <entry key="W1" value="197.38785725736847" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.000000000019849" />
+      <entry key="S30" value="1.000593409153573" />
+      <entry key="S60" value="1.076250737636029" />
+      <entry key="M2" value="2.2550289127507392" />
+      <entry key="M5" value="12.024912473739642" />
+      <entry key="M10" value="33.9348481983907" />
+      <entry key="M15" value="55.16716437408938" />
+      <entry key="M30" value="107.15755971699463" />
+      <entry key="H1" value="170.5019031778696" />
+      <entry key="H2" value="226.35372250744265" />
+      <entry key="H4" value="264.75775569801993" />
+      <entry key="D1" value="304.1584830978501" />
+      <entry key="W1" value="311.71553965176605" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="4.604022030948401E-71" />
-      <entry key="S2" value="2.60485976893753E-18" />
-      <entry key="S5" value="9.2536642784861E-8" />
-      <entry key="S10" value="3.041983609174478E-4" />
-      <entry key="S30" value="0.06725519109057222" />
-      <entry key="S60" value="0.26036429096169633" />
-      <entry key="M2" value="0.5413754043724193" />
-      <entry key="M5" value="1.0327070900118247" />
-      <entry key="M10" value="1.562005245766171" />
-      <entry key="M15" value="2.019995139389405" />
-      <entry key="M30" value="3.0719046761374247" />
-      <entry key="H1" value="4.14612398792074" />
-      <entry key="H2" value="4.944063779382394" />
-      <entry key="H4" value="5.43467435051154" />
-      <entry key="D1" value="5.900088257704545" />
-      <entry key="W1" value="5.985580455332349" />
+      <entry key="MS500" value="7.556803615515443E-170" />
+      <entry key="S2" value="5.243056454609759E-43" />
+      <entry key="S5" value="1.2241476793788417E-17" />
+      <entry key="S10" value="3.4988040184063535E-9" />
+      <entry key="S30" value="0.0015460670366990031" />
+      <entry key="S60" value="0.04426345122775748" />
+      <entry key="M2" value="0.2753915553821527" />
+      <entry key="M5" value="1.102350685238873" />
+      <entry key="M10" value="2.3161990067146467" />
+      <entry key="M15" value="3.3083005766369085" />
+      <entry key="M30" value="5.413688598348632" />
+      <entry key="H1" value="7.638487512826425" />
+      <entry key="H2" value="9.425597503474155" />
+      <entry key="H4" value="10.591080167662609" />
+      <entry key="D1" value="11.745792983793207" />
+      <entry key="W1" value="11.963173450543916" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.712025097798536" />
-      <entry key="MS500" value="0.9353289103276325" />
-      <entry key="S2" value="1.2933047070953105" />
-      <entry key="S5" value="2.3217587825260315" />
-      <entry key="S10" value="3.972389712097175" />
-      <entry key="S30" value="8.388994482770062" />
-      <entry key="S60" value="12.14177736400484" />
-      <entry key="M2" value="16.724854101755465" />
-      <entry key="M5" value="25.206159903458566" />
-      <entry key="M10" value="38.186411590919036" />
-      <entry key="M15" value="51.89959188790976" />
-      <entry key="M30" value="87.3184415782187" />
-      <entry key="H1" value="127.4418317710783" />
-      <entry key="H2" value="159.35787148063827" />
-      <entry key="H4" value="179.77636497107991" />
-      <entry key="D1" value="199.66661156018938" />
-      <entry key="W1" value="203.37323444248594" />
+      <entry key="MS100" value="7.118476803106742E-6" />
+      <entry key="MS500" value="0.09342807803968366" />
+      <entry key="S2" value="0.5528653266601344" />
+      <entry key="S5" value="0.7889468408524652" />
+      <entry key="S10" value="0.8882267988435967" />
+      <entry key="S30" value="0.9633046557744932" />
+      <entry key="S60" value="1.0987583065471205" />
+      <entry key="M2" value="2.509219328915478" />
+      <entry key="M5" value="13.092297420447878" />
+      <entry key="M10" value="36.20653311920422" />
+      <entry key="M15" value="58.42969273056931" />
+      <entry key="M30" value="112.52983592318418" />
+      <entry key="H1" value="178.10838997164169" />
+      <entry key="H2" value="235.7581901424592" />
+      <entry key="H4" value="275.33646661172935" />
+      <entry key="D1" value="315.9019008770673" />
+      <entry key="W1" value="323.67836511477134" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -112,28 +108,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.brick.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/HP/Desktop/100 days of Python/Progetti/breakout_game",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.brick.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Desktop/100 days of Python/Progetti/breakout_game&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -149,9 +145,22 @@
       <option name="presentableId" value="Default" />
       <updated>1794650987656</updated>
     </task>
+    <task id="LOCAL-00001" summary="creati brick e paddle objects">
+      <option name="closed" value="true" />
+      <created>1794847040397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1794847040398</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creati brick e paddle objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="creati brick e paddle objects" />
   </component>
 </project>
