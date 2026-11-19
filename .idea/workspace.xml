@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c287269b-6748-4470-8fa1-cf742515e38e" name="Changes" comment="creati brick e paddle objects">
-      <change afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
+    <list default="true" id="c287269b-6748-4470-8fa1-cf742515e38e" name="Changes" comment="bricks collision and scoreboard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/ball.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paddle.py" beforeDir="false" afterPath="$PROJECT_DIR$/paddle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,61 +38,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.000000000019849" />
-      <entry key="S30" value="1.000593409153573" />
-      <entry key="S60" value="1.076250737636029" />
-      <entry key="M2" value="2.2550289127507392" />
-      <entry key="M5" value="12.024912473739642" />
-      <entry key="M10" value="33.9348481983907" />
-      <entry key="M15" value="55.16716437408938" />
-      <entry key="M30" value="107.15755971699463" />
-      <entry key="H1" value="170.5019031778696" />
-      <entry key="H2" value="226.35372250744265" />
-      <entry key="H4" value="264.75775569801993" />
-      <entry key="D1" value="304.1584830978501" />
-      <entry key="W1" value="311.71553965176605" />
+      <entry key="MS100" value="1.0541787724457197" />
+      <entry key="MS500" value="1.7791706597925159" />
+      <entry key="S2" value="3.7329316735875224" />
+      <entry key="S5" value="5.264029272005132" />
+      <entry key="S10" value="6.358801363372288" />
+      <entry key="S30" value="10.056649531465757" />
+      <entry key="S60" value="13.068937327933435" />
+      <entry key="M2" value="15.920277643379269" />
+      <entry key="M5" value="24.093068490575167" />
+      <entry key="M10" value="41.45777463069352" />
+      <entry key="M15" value="58.53501025302836" />
+      <entry key="M30" value="100.90555890086209" />
+      <entry key="H1" value="170.9228160838688" />
+      <entry key="H2" value="267.8418928894745" />
+      <entry key="H4" value="359.9835777504705" />
+      <entry key="D1" value="479.4653810230086" />
+      <entry key="W1" value="505.4765112604374" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="7.556803615515443E-170" />
-      <entry key="S2" value="5.243056454609759E-43" />
-      <entry key="S5" value="1.2241476793788417E-17" />
-      <entry key="S10" value="3.4988040184063535E-9" />
-      <entry key="S30" value="0.0015460670366990031" />
-      <entry key="S60" value="0.04426345122775748" />
-      <entry key="M2" value="0.2753915553821527" />
-      <entry key="M5" value="1.102350685238873" />
-      <entry key="M10" value="2.3161990067146467" />
-      <entry key="M15" value="3.3083005766369085" />
-      <entry key="M30" value="5.413688598348632" />
-      <entry key="H1" value="7.638487512826425" />
-      <entry key="H2" value="9.425597503474155" />
-      <entry key="H4" value="10.591080167662609" />
-      <entry key="D1" value="11.745792983793207" />
-      <entry key="W1" value="11.963173450543916" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.514451756080163E-87" />
+      <entry key="S5" value="1.9839669470780813E-35" />
+      <entry key="S10" value="5.8084471799974565E-18" />
+      <entry key="S30" value="3.433784360155123E-6" />
+      <entry key="S60" value="0.003175461975357598" />
+      <entry key="M2" value="0.09770741766771988" />
+      <entry key="M5" value="0.8315744689129012" />
+      <entry key="M10" value="2.0252725298045258" />
+      <entry key="M15" value="2.9997401533074113" />
+      <entry key="M30" value="5.195394288954062" />
+      <entry key="H1" value="8.490099929985595" />
+      <entry key="H2" value="12.625949468932037" />
+      <entry key="H4" value="16.30744572943705" />
+      <entry key="D1" value="20.864324793768922" />
+      <entry key="W1" value="21.832391486762067" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="7.118476803106742E-6" />
-      <entry key="MS500" value="0.09342807803968366" />
-      <entry key="S2" value="0.5528653266601344" />
-      <entry key="S5" value="0.7889468408524652" />
-      <entry key="S10" value="0.8882267988435967" />
-      <entry key="S30" value="0.9633046557744932" />
-      <entry key="S60" value="1.0987583065471205" />
-      <entry key="M2" value="2.509219328915478" />
-      <entry key="M5" value="13.092297420447878" />
-      <entry key="M10" value="36.20653311920422" />
-      <entry key="M15" value="58.42969273056931" />
-      <entry key="M30" value="112.52983592318418" />
-      <entry key="H1" value="178.10838997164169" />
-      <entry key="H2" value="235.7581901424592" />
-      <entry key="H4" value="275.33646661172935" />
-      <entry key="D1" value="315.9019008770673" />
-      <entry key="W1" value="323.67836511477134" />
+      <entry key="MS100" value="0.9671261360926545" />
+      <entry key="MS500" value="1.710627673446371" />
+      <entry key="S2" value="3.692713260107791" />
+      <entry key="S5" value="5.240917014547765" />
+      <entry key="S10" value="6.3449639163943266" />
+      <entry key="S30" value="10.04999034712542" />
+      <entry key="S60" value="13.06781588100477" />
+      <entry key="M2" value="16.01274368497055" />
+      <entry key="M5" value="24.908873125346418" />
+      <entry key="M10" value="43.4513444879944" />
+      <entry key="M15" value="61.49389237291347" />
+      <entry key="M30" value="106.05489556274281" />
+      <entry key="H1" value="179.37195412110862" />
+      <entry key="H2" value="280.4366724320872" />
+      <entry key="H4" value="376.2706543930795" />
+      <entry key="D1" value="500.32530352368775" />
+      <entry key="W1" value="527.3082428149686" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -108,28 +107,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.brick.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Desktop/100 days of Python/Progetti/breakout_game&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.brick.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/HP/Desktop/100 days of Python/Progetti/breakout_game",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "com.intellij.air.settings.commitMessage"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -153,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794847040398</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="collision with walls and paddle">
+      <option name="closed" value="true" />
+      <created>1794928891203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1794928891203</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +169,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="creati brick e paddle objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="creati brick e paddle objects" />
+    <MESSAGE value="collision with walls and paddle" />
+    <MESSAGE value="bricks collision and scoreboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="bricks collision and scoreboard" />
   </component>
 </project>

@@ -10,8 +10,8 @@ class YellowBrick:
 
     def create_brick(self):
         for position in POSITIONS:
-            self.add_brick((position, 85))
             self.add_brick((position, 60))
+            self.add_brick((position, 85))
 
     def add_brick(self, position):
         new_brick = Turtle(shape="square")
