@@ -24,3 +24,13 @@ class Scoreboard(Turtle):
     def point(self, points):
         self.score += points
         self.update_scoreboard()
+
+    def game_over(self):
+        self.goto(0, 0)
+        self.color("red")
+        self.write("GAME OVER", align="center", font=("Courier", 50, "bold"))
+
+    def winner(self):
+        self.goto(0, 0)
+        self.color("green")
+        self.write("Hai vinto!", align="center", font=("Courier", 50, "bold"))
