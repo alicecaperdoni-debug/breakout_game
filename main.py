@@ -39,12 +39,10 @@ while game_on:
     s.update()
     ball.move()
 
-    #TODO capisci come far rimpicciolire il paddle; vuoi far fermare il paddle contro il muro?
-
     # detect collision with upper wall
     if ball.ycor() > 280:
         ball.bounce_up_y()
-        # paddle.stretch_len = paddle.stretch_len - 1
+        paddle.shrink()
 
     # detect collision with right and left walls
     if ball.xcor() > 380 or ball.xcor() < -380:
