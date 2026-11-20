@@ -34,7 +34,7 @@ hits = 0
 
 while game_on:
     if hits == 4 or hits == 12:
-        ball.move_speed *= 0.999
+        ball.move_speed *= 0.99
     time.sleep(ball.move_speed)
     s.update()
     ball.move()
@@ -49,7 +49,7 @@ while game_on:
         ball.bounce_x()
 
     # detect collision with paddle
-    if ball.distance(paddle) < 100 and ball.ycor() < -170:
+    if ball.distance(paddle) < (paddle.stretch_len*20)/2 and (-200 < ball.ycor() < -170):
         ball.bounce_up_y()
 
     # detect when paddle misses
@@ -83,7 +83,7 @@ while game_on:
             o_brick.segments.remove(brick)
             hits += 1
             scoreboard.point(5)
-            ball.move_speed *= 0.999
+            ball.move_speed *= 0.99
 
     for brick in r_brick.segments:
         if ball.distance(brick) < 50 and ((ball.ycor() < brick.ycor() - 25) or (ball.ycor() < brick.ycor() + 25)):
@@ -92,7 +92,7 @@ while game_on:
             r_brick.segments.remove(brick)
             hits += 1
             scoreboard.point(7)
-            ball.move_speed *= 0.999
+            ball.move_speed *= 0.99
 
     # Build again or winning
     if len(y_brick.segments) == 0 and len(g_brick.segments) == 0 and len(o_brick.segments) == 0 and len(r_brick.segments) == 0:
@@ -104,14 +104,7 @@ while game_on:
             g_brick.create_brick()
             o_brick.create_brick()
             r_brick.create_brick()
-
-    if len(y_brick.segments) == 0:
-        if final_game:
-            game_on = False
-            scoreboard.winner()
-        else:
-            final_game = True
-            y_brick.create_brick()
+            ball.goto(0, -170)
 
 if not game_on and scoreboard.turns <= 0:
     scoreboard.game_over()
